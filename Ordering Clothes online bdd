@@ -1,4 +1,6 @@
 Feature: Ordering clothes online
+
+Background:
     Given I want to purchase clothing at your logo.com
   
   Scenario: User orders a t-shirt and can see order history
