@@ -1,18 +1,4 @@
-Feature: Ordering clothes validation
 
-  Background: 
-    Given I want to purchase clothing at your logo.com
-  
-  Scenario: User cannot proceed without agreeing to terms of services
-     When choose the category "t-shirts"
-      And I add the item to my cart "add to cart"
-      And I proceed to checkout
-      And I proceed to delivery address
-      And I proceed to shipping summary
-      And I proceed to choose my payment type
-     Then I am told I must agree to terms of services
-      And I cannot proceed to choose my payment type
-  
   Feature: Ordering clothes online
     Given I want to purchase clothing at your logo.com
   
